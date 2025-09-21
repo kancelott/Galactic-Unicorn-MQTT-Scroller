@@ -5,13 +5,16 @@ from mqtt_as import config
 config['server'] = ''  # Your MQTT Server
 #  config['server'] = 'test.mosquitto.org'
 
-config ['port'] = 1884 #Your MQTT Port
+config ['port'] = 1883 #Your MQTT Port
 config['user'] ='' #Your MQTT User Name
 config ['password'] ='' # Your MQTT Password
 
 
 config['ssid'] = '' #Your Wifi SSID
 config['wifi_pw'] = '' #Your Wifi Password
+
+
+TOPIC_PREFIX = 'galactic'
 
 # For demos ensure same calling convention for LED's on all platforms.
 # ESP8266 Feather Huzzah reference board has active low LED's on pins 0 and 2.

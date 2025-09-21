@@ -9,6 +9,7 @@ An edited version of the Pimoroni Text Scroll to connect to Wifi and subscribe t
 
 Copy all the files to your Galactic Unicon using Thonny - edit config.py to add your Wifi and MQTT broker credentials.
 
-Edit the unicornmqttscroller.py file for your own MQTTT to subscribe, background colour, scroll speed etc.
+Edit the unicornmqttscroller.py file for your own MQTT to subscribe, background colour, scroll speed etc.
+You may also rename this file to `main.py` so it starts automatically.
 
 Created as part of work at the Connected Environments Group at the Centre for Advanced Spatial Analysis, University College London.
